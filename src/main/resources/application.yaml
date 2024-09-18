@@ -1,0 +1,18 @@
+spring:
+  config:
+    name: project3
+  datasource:
+    url: jdbc:postgresql://localhost:5432/journal
+    username: postgres
+    password: 1212
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl_auto: create-drop
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql:
+# update
